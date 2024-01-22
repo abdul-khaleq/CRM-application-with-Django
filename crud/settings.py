@@ -26,10 +26,9 @@ SECRET_KEY = 'django-insecure-hb9@ibrp_l)rg!g+t(*dh)068@@22*2(nn(!^d8t=@sg17hz6b
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ['https://crm-application-with-django.onrender.com','https://*.127.0.0.1']
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
